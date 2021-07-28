@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')  
 }
  
-var creator = "@only_fxc7"
+var creator = "@kata_hitam1"
 var secure = require('ssl-express-www');
 var cors = require('cors');
 var fetch = require('node-fetch');
@@ -572,7 +572,7 @@ Axios.get('https://jadwalnonton.com/now-playing')
      creator:  `${creator}`,
      status: true,
      result: result
-     })
+     })j
 })
 } else {
 res.json(loghandler.invalidKey)
